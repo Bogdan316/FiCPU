@@ -1,0 +1,191 @@
+Time resolution is 1 ps
+ALU:
+ 	srca =          x
+ 	srcb =          x
+ 	alucontrol = xxx
+ 	aluresult = xxxxxxxx
+ 	zero = x
+/***************************/
+MIPS: 	PC: 00000000
+Controller:
+ 	Branch: 0
+	Zero: x
+Controller:
+ 	Branch: 0
+	Zero: 0
+ALU:
+ 	srca =          0
+ 	srcb =          5
+ 	alucontrol = 010
+ 	aluresult = 00000005
+ 	zero = 0
+ALU:
+ 	srca =          0
+ 	srcb =          5
+ 	alucontrol = 010
+ 	aluresult = 00000005
+ 	zero = 0
+ALU:
+ 	srca =          0
+ 	srcb =          5
+ 	alucontrol = 010
+ 	aluresult = 00000005
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 00000004
+ALU:
+ 	srca =          0
+ 	srcb =         12
+ 	alucontrol = 010
+ 	aluresult = 0000000c
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 00000008
+ALU:
+ 	srca =         12
+ 	srcb = 4294967287
+ 	alucontrol = 010
+ 	aluresult = 00000003
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 0000000c
+ALU:
+ 	srca =          3
+ 	srcb =          5
+ 	alucontrol = 001
+ 	aluresult = 00000007
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 00000010
+ALU:
+ 	srca =         12
+ 	srcb =          7
+ 	alucontrol = 000
+ 	aluresult = 00000004
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 00000014
+ALU:
+ 	srca =          4
+ 	srcb =          7
+ 	alucontrol = 010
+ 	aluresult = 0000000b
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 00000018
+Controller:
+ 	Branch: 1
+	Zero: 0
+Controller:
+ 	Branch: 1
+	Zero: x
+Controller:
+ 	Branch: 1
+	Zero: 0
+ALU:
+ 	srca =         11
+ 	srcb =          3
+ 	alucontrol = 110
+ 	aluresult = 00000008
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 0000001c
+Controller:
+ 	Branch: 0
+	Zero: 0
+Controller:
+ 	Branch: 0
+	Zero: 1
+ALU:
+ 	srca =         12
+ 	srcb =          7
+ 	alucontrol = 111
+ 	aluresult = 00000000
+ 	zero = 1
+/***************************/
+MIPS: 	PC: 00000020
+Controller:
+ 	Branch: 1
+	Zero: 1
+Controller:
+ 	Branch: 1
+	Zero: x
+Controller:
+ 	Branch: 1
+	Zero: 1
+ALU:
+ 	srca =          0
+ 	srcb =          0
+ 	alucontrol = 110
+ 	aluresult = 00000000
+ 	zero = 1
+/***************************/
+MIPS: 	PC: 00000028
+Controller:
+ 	Branch: 1
+	Zero: 0
+Controller:
+ 	Branch: 0
+	Zero: 0
+ALU:
+ 	srca =          3
+ 	srcb =          5
+ 	alucontrol = 111
+ 	aluresult = 00000001
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 0000002c
+ALU:
+ 	srca =          1
+ 	srcb =         11
+ 	alucontrol = 010
+ 	aluresult = 0000000c
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 00000030
+ALU:
+ 	srca =         12
+ 	srcb =          5
+ 	alucontrol = 110
+ 	aluresult = 00000007
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 00000034
+Controller:
+ 	Branch: 0
+	Zero: x
+Controller:
+ 	Branch: 0
+	Zero: 0
+ALU:
+ 	srca =         12
+ 	srcb =         68
+ 	alucontrol = 010
+ 	aluresult = 00000050
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 00000038
+ALU:
+ 	srca =          0
+ 	srcb =         80
+ 	alucontrol = 010
+ 	aluresult = 00000050
+ 	zero = 0
+/***************************/
+MIPS: 	PC: 0000003c
+Controller:
+ 	Branch: 0
+	Zero: 1
+ALU:
+ 	srca =          0
+ 	srcb =          0
+ 	alucontrol = 010
+ 	aluresult = 00000000
+ 	zero = 1
+/***************************/
+MIPS: 	PC: 00000044
+Controller:
+ 	Branch: 0
+	Zero: 0
+Simulation succeeded
+$stop called at time : 175 ns : File "/home/bogdan/git/FiCPU/FiCPU.srcs/sim_1/new/testbench.v" Line 52
